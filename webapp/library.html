@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=1">
+
+    <title>Library</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/library.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<header id="header">
+
+    <script>
+        $('#header').load('header.html');
+    </script>
+
+</header>
+
+<div class="content">
+    <div id="search_panel">
+
+        <label for="by_name"></label>
+
+        <div id="search_wrapper">
+            <input id="by_name" type="text">
+            <button>Search</button>
+        </div>
+
+        <div id="filter_panel">
+
+
+            <div class="filter">
+            <label for="yeara_filter">Year:</label>
+                <input id="yeara_filter" maxlength="4" size="4">
+            </div>
+
+            <div class="filter">
+            <label for="rating_filter">Rating:</label>
+            <input id="rating_filter" maxlength="2" size="2">
+            </div>
+
+            <div class="slect">
+                <label for="genre_filter">Genre:</label>
+                <select id="genre_filter">
+                    <option>Action</option>
+                    <option>History</option>
+                </select>
+            </div>
+
+            <div class="select">
+            <label for="sort_filter">Sort:</label>
+            <select id="sort_filter">
+                <option>Year</option>
+                <option>Rating</option>
+                <option>Likes</option>
+            </select>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="holder_label">
+        <h2>Most Popular</h2>
+    </div>
+
+    <div id="pagination_list">
+        <div class="pagination_number active">1</div>
+        <div class="pagination_number">2</div>
+        <div class="pagination_number">3</div>
+        <div class="pagination_number">4</div>
+        <div class="pagination_number">5</div>
+        <div class="pagination_number">6</div>
+        <div class="pagination_number">Next</div>
+    </div>
+
+    <div id="thumb_holder">
+
+
+        <div id="thumb_wrapper">
+            <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div> <div class="thumb">
+                <div class="poster">
+                    <img src="https://yts.ag/assets/images/movies/berlin_syndrome_2017/large-cover.jpg">
+                    <i class="material-icons sean">visibility</i>
+                    <div class="film_info">
+                        <i class="material-icons">stars</i>
+                        <div class="imdb_rating">imdb: 6.3 / 10</div>
+                        <div class="genre_list">
+                            <span>Action</span><br/>
+                            <span>Horror</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="title">Berlin Syndrome</div>
+                    <div class="year">2017</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+
+    <script>
+        $('#footer').load('footer.html');
+    </script>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.form input
+{
+    margin: 10px 0;
+    width: 400px;
+}
+
+.form nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#req_form
+{
+    display: none;
+}
+
+#forgot_form
+{
+ display: none;
+}
+
+@media (max-width: 440px)
+{
+    .form input
+    {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .form input
+    {
+        width: 250px;
+    }
+}

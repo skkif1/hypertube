@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=1">
+
+    <title>Hyper</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/authorization.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<header id="header">
+
+    <script>
+        $('#header').load('header.html');
+    </script>
+
+</header>
+
+
+<div class="content">
+
+    <div class="form" id="login_form">
+        <label for="login_input">Login:</label>
+        <input class="form-element" id="login_input" maxlength="32">
+
+        <label for="password_input">Password:</label>
+        <input class="input" id="password_input" type="password" maxlength="32">
+
+        <nav>
+            <button onclick="">Login</button>
+            <a onclick="changeForm('forgot_form')">forgot password?</a>
+        </nav>
+
+    </div>
+
+    <div class="form" id="req_form">
+
+        <label for="login_req_input">Login:</label>
+        <input id="login_req_input" maxlength="32">
+
+        <label for="email_req_input">Email:</label>
+        <input id="email_req_input" maxlength="256">
+
+        <label for="password_req_input">Password:</label>
+        <input  id="password_req_input" maxlength="32">
+
+        <label for="password_req_input_repeat">Repeat password:</label>
+        <input id="password_req_input_repeat" maxlength="32">
+
+        <nav>
+            <button>Reqister</button>
+        </nav>
+
+    </div>
+
+    <div class="form" id="forgot_form">
+
+        <label for="forgot_input">Email:</label>
+        <input id="forgot_input" maxlength="256">
+
+        <nav>
+            <button>Submit</button>
+        </nav>
+    </div>
+</div>
+
+<footer id="footer">
+
+    <script>
+        $('#footer').load('footer.html');
+    </script>
+
+</footer>
+
+<script src="js/authorization.js"></script>
+
+</body>
+</html>
